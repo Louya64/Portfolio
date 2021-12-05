@@ -1,0 +1,62 @@
+.projectsItem {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px rgb(1, 10, 30);
+}
+
+.projectsItemImg {
+	width: 100%;
+	position: relative;
+}
+
+.imgDesktop {
+	border: 15px solid black;
+	border-radius: 10px;
+	width: 85%;
+	margin-top: 15px;
+	box-shadow: 2px 4px 10px rgb(1, 10, 30);
+}
+
+.imgMobile {
+	border: 5px solid black;
+	border-radius: 10px;
+	width: 10%;
+	position: absolute;
+	right: 10%;
+	top: 70%;
+	box-shadow: 1px 1px 3px rgb(1, 10, 30);
+}
+
+.projectsItemLinks > a {
+	padding: 15px;
+	font-size: 30px;
+}
+
+.blindCrashTest {
+	grid-column: 1/7;
+	grid-row: 1/5;
+	background-color: rgba(0, 0, 255, 0.08);
+}
+.llmWikiMusic {
+	grid-column: 8/12;
+	grid-row: 1/4;
+	background-color: rgba(153, 78, 8, 0.08);
+}
+.morpion {
+	grid-column: 1/4;
+	grid-row: 5/8;
+	background-color: rgba(225, 0, 255, 0.08);
+}
+.workflowGithub {
+	grid-column: 4/7;
+	grid-row: 5/8;
+	background-color: rgba(208, 255, 0, 0.08);
+}
+.leWildRestaurant {
+	grid-column: 7/13;
+	grid-row: 4/8;
+	background-color: rgba(0, 255, 34, 0.08);
+}
