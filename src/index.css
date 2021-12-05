@@ -37,7 +37,6 @@ p {
 	font-size: 18px;
 	padding: 20px;
 }
-
 @media all and (max-width: 1400px) {
 	p {
 		font-size: 1.3vw;
@@ -61,4 +60,10 @@ p {
 
 section {
 	padding-top: 5vw;
+}
+
+.sectionTitle {
+	color: rgba(240, 230, 140, 0.8);
+	background-color: rgb(1, 10, 30);
+	padding: 60px;
 }

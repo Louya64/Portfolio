@@ -12,7 +12,7 @@ const Header = () => {
 			<nav className="headerNav">
 				<ul>
 					<li className="headerNavItem">
-						<a className="titleFont" href="#history">
+						<a className="titleFont" href="#about">
 							<span className="titleFont maj">M</span>on histoire
 						</a>
 					</li>

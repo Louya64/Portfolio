@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import About from "./components/About";
-import Footer from "./components/Footer";
 import Projets from "./components/Projects";
+import Contact from "./components/Contact";
 
 import "./App.css";
 
@@ -11,7 +11,7 @@ function App() {
 			<Header />
 			<About />
 			<Projets />
-			<Footer />
+			<Contact />
 		</div>
 	);
 }

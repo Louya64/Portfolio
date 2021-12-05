@@ -4,8 +4,8 @@ import "./Projects.css";
 
 const Projects = () => {
 	return (
-		<section className="projects">
-			<h2 className="projectsTitle">
+		<section className="projects" id="projects">
+			<h2 className="sectionTitle">
 				<span className="titleFont maj">M</span>es projets
 			</h2>
 			<div className="projectsGrid">

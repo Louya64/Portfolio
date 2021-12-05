@@ -1,0 +1,40 @@
+#contactForm {
+	width: 80%;
+	margin: 10vh auto;
+	padding: 10vh 0;
+	background-color: rgba(243, 241, 221, 0.5);
+	box-shadow: 2px 2px 5px rgb(1, 10, 30);
+	border-radius: 10px;
+	position: relative;
+}
+
+#contactForm input {
+	background-color: inherit;
+	border: none;
+	border-bottom: 2px solid rgb(1, 10, 30);
+	width: 30%;
+	margin: 20px;
+}
+
+#contactForm #messageInput {
+	width: 60%;
+}
+
+#contactSubmit {
+	background-color: rgb(1, 10, 30);
+	color: rgba(240, 230, 140, 0.8);
+	padding: 7px 3vw;
+	border-radius: 10px;
+	margin-top: 5vh;
+}
+
+#submitRes {
+	position: absolute;
+	bottom: 4vh;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.iconRequired {
+	color: red;
+}
