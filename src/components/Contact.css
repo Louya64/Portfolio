@@ -1,40 +1,64 @@
+.contactLink {
+  padding: 10px;
+}
+
 #contactForm {
-	width: 80%;
-	margin: 10vh auto;
-	padding: 10vh 0;
-	background-color: rgba(243, 241, 221, 0.5);
-	box-shadow: 2px 2px 5px rgb(1, 10, 30);
-	border-radius: 10px;
-	position: relative;
+  width: 80%;
+  margin: 10vh auto;
+  padding: 10vh 0;
+  background-color: rgba(243, 241, 221, 0.5);
+  box-shadow: 2px 2px 5px rgb(1, 10, 30);
+  border-radius: 10px;
+  position: relative;
+}
+
+.inputsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.inputDiv {
+  width: 40%;
+}
+.messageDiv {
+  width: 90%;
+  margin: auto;
 }
 
 #contactForm input {
-	background-color: inherit;
-	border: none;
-	border-bottom: 2px solid rgb(1, 10, 30);
-	width: 30%;
-	margin: 20px;
-}
-
-#contactForm #messageInput {
-	width: 60%;
+  background-color: inherit;
+  border: none;
+  border-bottom: 2px solid rgb(1, 10, 30);
+  width: 100%;
+  margin: 20px;
 }
 
 #contactSubmit {
-	background-color: rgb(1, 10, 30);
-	color: rgba(240, 230, 140, 0.8);
-	padding: 7px 3vw;
-	border-radius: 10px;
-	margin-top: 5vh;
+  background-color: rgb(1, 10, 30);
+  color: rgba(240, 230, 140, 0.8);
+  padding: 7px 3vw;
+  border-radius: 10px;
+  margin-top: 5vh;
 }
 
 #submitRes {
-	position: absolute;
-	bottom: 4vh;
-	left: 50%;
-	transform: translate(-50%);
+  font-size: larger;
+  position: absolute;
+  bottom: 4vh;
+  left: 50%;
+  transform: translate(-50%);
 }
 
+.required {
+  position: relative;
+}
 .iconRequired {
-	color: red;
+  color: rgba(255, 0, 0, 0.534);
+  position: absolute;
+  left: 0;
+  bottom: 3vh;
+}
+
+.error {
+  border-bottom: 2px solid rgba(255, 0, 0, 0.534);
 }
