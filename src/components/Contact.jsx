@@ -1,80 +1,112 @@
-import { useState } from "react";
-import axios from "axios";
-import { FaStarOfLife } from "react-icons/fa";
+// comments -> waiting for backend
+
+// import { useState } from "react";
+// import axios from "axios";
+// import { FaStarOfLife } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillMail } from "react-icons/ai";
 import { BsTelephone } from "react-icons/bs";
 import "./Contact.css";
 
 const Contact = () => {
-  const [lastname, setLastname] = useState("");
-  const [firstname, setFirstname] = useState("");
-  const [societyName, setSocietyName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+	// const [lastname, setLastname] = useState("");
+	// const [firstname, setFirstname] = useState("");
+	// const [societyName, setSocietyName] = useState("");
+	// const [email, setEmail] = useState("");
+	// const [message, setMessage] = useState("");
 
-  let error;
+	// let error;
 
-  const handleSubmit = (e) => {
-    error = false;
-    e.preventDefault();
-    if (lastname === "" || email === "" || message === "") {
-      error = true;
-    } else {
-      axios({
-        method: "post",
-        url: "http://localhost:8000/",
-        data: {
-          lastname_pseudo: lastname,
-          firstname: firstname,
-          society_name: societyName,
-          email_sender: email,
-          message: message,
-        },
-      })
-        .then(
-          (res) => (document.getElementById("submitRes").textContent = res.data)
-        )
-        .catch((err) => console.error(err.response.data.validationErrors));
-      setLastname("");
-      setFirstname("");
-      setSocietyName("");
-      setEmail("");
-      setMessage("");
-    }
-  };
+	// const handleSubmit = (e) => {
+	// 	error = false;
+	// 	e.preventDefault();
+	// 	if (lastname === "" || email === "" || message === "") {
+	// 		error = true;
+	// 	} else {
+	// 		axios({
+	// 			method: "post",
+	// 			url: "http://localhost:8000/",
+	// 			data: {
+	// 				lastname_pseudo: lastname,
+	// 				firstname: firstname,
+	// 				society_name: societyName,
+	// 				email_sender: email,
+	// 				message: message,
+	// 			},
+	// 		})
+	// 			.then(
+	// 				(res) => (document.getElementById("submitRes").textContent = res.data)
+	// 			)
+	// 			.catch((err) => console.error(err.response.data.validationErrors));
+	// 		setLastname("");
+	// 		setFirstname("");
+	// 		setSocietyName("");
+	// 		setEmail("");
+	// 		setMessage("");
+	// 	}
+	// };
 
-  return (
-    <section id="contact">
-      <h2 className="sectionTitle">
-        Pour me contacter :<br />
-        <a
-          aria-label="lien linkedin"
-          className="contactLink"
-          href="https://www.linkedin.com/in/emilie-eliceyri"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <AiFillLinkedin />
-        </a>
-        <a
-          aria-label="adresse email"
-          className="contactLink"
-          href="mailto:cixie@live.fr"
-          title="envoyez-moi un mail : cixie@live.fr"
-        >
-          <AiFillMail />
-        </a>
-        <a
-          aria-label="numéro de téléphone"
-          className="contactLink"
-          href="tel:+33676678002"
-          title="contactez-moi par téléphone : 06 76 67 80 02"
-        >
-          <BsTelephone />
-        </a>
-      </h2>
-      <form id="contactForm" onSubmit={(e) => handleSubmit(e)} method="POST">
+	return (
+		<section id="contact">
+			<h2 className="sectionTitle">Pour me contacter :</h2>
+			<div className="contactLinksContainer">
+				<a
+					aria-label="lien linkedin"
+					className="contactLink titleFont"
+					href="https://www.linkedin.com/in/emilie-eliceyri"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<AiFillLinkedin /> https://www.linkedin.com/in/emilie-eliceyri
+				</a>
+				<a
+					aria-label="adresse email"
+					className="contactLink titleFont"
+					href="mailto:cixie@live.fr"
+					title="envoyez-moi un mail : cixie@live.fr"
+				>
+					<AiFillMail /> cixie@live.fr
+				</a>
+				<a
+					aria-label="numéro de téléphone"
+					className="contactLink titleFont"
+					href="tel:+33676678002"
+					title="contactez-moi par téléphone : 06 76 67 80 02"
+				>
+					<BsTelephone /> 06 76 67 80 02
+				</a>
+			</div>
+
+			{/* <h2 className="sectionTitle">
+				Pour me contacter :<br />
+				<a
+					aria-label="lien linkedin"
+					className="contactLink"
+					href="https://www.linkedin.com/in/emilie-eliceyri"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<AiFillLinkedin /> https://www.linkedin.com/in/emilie-eliceyri
+				</a>
+				<a
+					aria-label="adresse email"
+					className="contactLink"
+					href="mailto:cixie@live.fr"
+					title="envoyez-moi un mail : cixie@live.fr"
+				>
+					<AiFillMail /> cixie@live.fr
+				</a>
+				<a
+					aria-label="numéro de téléphone"
+					className="contactLink"
+					href="tel:+33676678002"
+					title="contactez-moi par téléphone : 06 76 67 80 02"
+				>
+					<BsTelephone /> 06 76 67 80 02
+				</a>
+			</h2> */}
+
+			{/* <form id="contactForm" onSubmit={(e) => handleSubmit(e)} method="POST">
         FORMULAIRE EN COURS DE CONSTRUCTION, NON FONCTIONNEL POUR L'INSTANT
         <div className="inputsContainer">
           <div className="inputDiv required">
@@ -154,9 +186,9 @@ const Contact = () => {
           Envoyer
         </button>
         <div id="submitRes"></div>
-      </form>
-    </section>
-  );
+      </form> */}
+		</section>
+	);
 };
 
 export default Contact;

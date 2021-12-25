@@ -11,8 +11,8 @@ const About = () => {
 					</h2>
 					<p>
 						Après 5ans en restauration et une dizaine d'années dans l'industrie,
-						je choisi de me reconvertir en développeuse web afin de donner un
-						nouveau sens à ma vie professionnelle (autre que payer le loyer).
+						je choisis de me reconvertir dans le développement web afin de
+						donner un nouveau sens à ma vie professionnelle.
 						<br />
 						Je commence par les cours openclassrooms et je découvre alors qu'on
 						peut construire ce qu'on imagine pour peu qu'on apprenne à parler à
@@ -21,7 +21,7 @@ const About = () => {
 					<p>
 						Me voilà donc partie dans un périple rempli de rencontres:
 						<br />
-						mes prmiers amis, HTML et CSS, m'ont permis de croiser le chemin
+						mes premiers amis, HTML et CSS, m'ont permis de croiser le chemin
 						d'Algorithme... La relation s'est révélée assez difficile dans un
 						premier temps, j'ai donc décidé de chercher un coach. J'ai passé
 						quelques temps avec le premier, mais je voulais aller plus loin,

@@ -14,9 +14,9 @@ const projectItems = [
 		slug: "blindCrashTest",
 		urlImgDesktop: blindDesktop,
 		urlImgMobile: blindMobile,
-		description:
-			"Projet de formation Wild Code School React / API REST(deezer)",
-		urlGithub: "https://github.com/marie5060/Blind-Crash-Test",
+		description: "Projet de formation n°2 Wild Code School",
+		stack: "React / API REST(deezer)",
+		urlGithub: ["https://github.com/marie5060/Blind-Crash-Test"],
 		urlWebsite: "https://marie5060.github.io/Blind-Crash-Test/",
 	},
 	{
@@ -25,8 +25,9 @@ const projectItems = [
 		slug: "llmWikiMusic",
 		urlImgDesktop: llmDesktop,
 		urlImgMobile: "",
-		description: "Hackathon de 30h - thème: la musique React / API REST",
-		urlGithub: "https://github.com/bast44trl/LLM_WikiMusic",
+		description: "Hackathon de 30h - thème: la musique",
+		stack: "React / API REST",
+		urlGithub: ["https://github.com/bast44trl/LLM_WikiMusic"],
 		urlWebsite: "https://bast44trl.github.io/LLM_WikiMusic/",
 	},
 	{
@@ -35,9 +36,9 @@ const projectItems = [
 		slug: "morpion",
 		urlImgDesktop: morpionDesktop,
 		urlImgMobile: morpionMobile,
-		description:
-			"Petit projet personnel pour m'amuser HTML CSS Bootstrap JS Vanilla",
-		urlGithub: "https://github.com/Louya64/morpion",
+		description: "Petit projet personnel pour m'amuser",
+		stack: "HTML CSS Bootstrap JS Vanilla",
+		urlGithub: ["https://github.com/Louya64/morpion"],
 		urlWebsite: "https://louya64.github.io/morpion/",
 	},
 	{
@@ -46,9 +47,9 @@ const projectItems = [
 		slug: "workflowGithub",
 		urlImgDesktop: workflowGithubDesktop,
 		urlImgMobile: "",
-		description:
-			"Petit projet personnel pour réviser et aider mes camarades HTML Sass",
-		urlGithub: "https://github.com/Louya64/WorkflowGithub",
+		description: "Petit projet personnel pour réviser",
+		stack: "HTML Sass",
+		urlGithub: ["https://github.com/Louya64/WorkflowGithub"],
 		urlWebsite: "https://louya64.github.io/WorkflowGithub/",
 	},
 	{
@@ -57,9 +58,24 @@ const projectItems = [
 		slug: "leWildRestaurant",
 		urlImgDesktop: wildRestoDesktop,
 		urlImgMobile: wildRestoMobile,
-		description: "Projet de formation Wild Code School HTML CSS JS",
-		urlGithub: "https://github.com/Louya64/The-Wild-restau",
+		description: "Projet de formation n°1 Wild Code School",
+		stack: "HTML CSS JS",
+		urlGithub: ["https://github.com/Louya64/The-Wild-restau"],
 		urlWebsite: "https://louya64.github.io/The-Wild-restau/",
+	},
+	{
+		id: 6,
+		title: "En cours ... SporEko",
+		slug: "sporEko",
+		urlImgDesktop: "",
+		urlImgMobile: "",
+		description: "Projet de formation n°3 Wild Code School",
+		stack: "fullstack: React Express MySql",
+		urlGithub: [
+			"https://github.com/DavidVM19/SporEko-back",
+			"https://github.com/DavidVM19/SporEko-front",
+		],
+		urlWebsite: "",
 	},
 ];
 

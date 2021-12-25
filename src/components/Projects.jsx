@@ -17,6 +17,7 @@ const Projects = () => {
 						urlImgDesktop={item.urlImgDesktop}
 						urlImgMobile={item.urlImgMobile}
 						description={item.description}
+						stack={item.stack}
 						urlGithub={item.urlGithub}
 						urlWebsite={item.urlWebsite}
 					/>

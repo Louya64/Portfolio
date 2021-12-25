@@ -1,7 +1,24 @@
-.contactLink {
-  padding: 10px;
+#contact .sectionTitle {
+	padding-bottom: 150px;
 }
 
+.contactLinksContainer {
+	display: flex;
+	justify-content: space-around;
+	margin-top: -5vw;
+}
+
+.contactLink {
+	display: block;
+	padding: 10px;
+	color: rgba(240, 230, 140, 0.8);
+	font-size: 2.5vw;
+}
+
+.contactLink :nth-child(1) {
+	margin-bottom: -0.5vw;
+}
+/* 
 #contactForm {
   width: 80%;
   margin: 10vh auto;
@@ -61,4 +78,4 @@
 
 .error {
   border-bottom: 2px solid rgba(255, 0, 0, 0.534);
-}
+} */

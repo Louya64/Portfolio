@@ -6,9 +6,13 @@ const Header = () => {
 		<header className="header">
 			<h1>Emilie Eliceyri</h1>
 			<h2>
-				Développeuse Fullstack Junior JS / React /
+				Développeuse Web Junior JS / React /
 				<span className="titleFont maj">N</span>ode
 			</h2>
+			<h3>
+				<span className="titleFont maj">À</span> la recherche d'un stage à
+				partir du 14 février 2022
+			</h3>
 			<nav className="headerNav">
 				<ul>
 					<li className="headerNavItem">
