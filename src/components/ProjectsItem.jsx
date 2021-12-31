@@ -25,18 +25,20 @@ const ProjectsItem = ({
 				<p>{description}</p>
 				<p>{stack}</p>
 				<div className="projectsItemLinks">
-					Voir le projet :
-					{urlGithub &&
-						urlGithub.map((url) => (
-							<a target="_blank" rel="noreferrer" href={url}>
-								<FaGithub />
+					<div>Voir le projet :</div>
+					<div>
+						{urlGithub &&
+							urlGithub.map((url) => (
+								<a target="_blank" rel="noreferrer" href={url}>
+									<FaGithub />
+								</a>
+							))}
+						{urlWebsite && (
+							<a target="_blank" rel="noreferrer" href={urlWebsite}>
+								<BsGlobe2 />
 							</a>
-						))}
-					{urlWebsite && (
-						<a target="_blank" rel="noreferrer" href={urlWebsite}>
-							<BsGlobe2 />
-						</a>
-					)}
+						)}
+					</div>
 				</div>
 			</div>
 		</article>

@@ -27,3 +27,24 @@
 	height: fit-content;
 	padding: 30px;
 }
+
+@media screen and (max-width: 770px) {
+	.aboutItem {
+		width: 90%;
+	}
+	.aboutItem.bref {
+		width: 70%;
+		padding: 5px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.about {
+		flex-direction: column;
+	}
+	.about > div {
+		width: 100%;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+}

@@ -1,5 +1,4 @@
 .header {
-	/* position: fixed; */
 	background-image: url("https://www.publicdomainpictures.net/pictures/170000/velka/banner-header-tapete-1463483351bhS.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -26,12 +25,31 @@
 	display: flex;
 	justify-content: flex-end;
 }
-@media screen and (max-width: 700px) {
-	.headerNav ul {
-		height: 4vw;
-	}
-}
 
 .headerNavItem {
 	padding: 5px 50px;
+}
+
+@media screen and (max-width: 770px) {
+	.headerNav {
+		font-size: 25px;
+		bottom: 3vw;
+	}
+	.headerNav ul {
+		height: 4vw;
+		justify-content: space-evenly;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.headerNavItem {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.headerNav {
+		font-size: 15px;
+		bottom: 2.5vw;
+	}
 }
