@@ -8,6 +8,7 @@ const ProjectsItem = ({
 	urlImgDesktop,
 	urlImgMobile = null,
 	description,
+	text,
 	stack,
 	urlGithub,
 	urlWebsite = null,
@@ -20,6 +21,7 @@ const ProjectsItem = ({
 					<img className="imgMobile" src={urlImgMobile} alt={title} />
 				)}
 			</div>
+			<p className="projectsItemText">{text}</p>
 			<div className="projectsItemInfos">
 				<h3 className="projectsItemTitle">{title}</h3>
 				<p>{description}</p>
@@ -29,7 +31,7 @@ const ProjectsItem = ({
 					<div>
 						{urlGithub &&
 							urlGithub.map((url) => (
-								<a target="_blank" rel="noreferrer" href={url}>
+								<a key={url} target="_blank" rel="noreferrer" href={url}>
 									<FaGithub />
 								</a>
 							))}

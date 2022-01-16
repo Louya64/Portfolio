@@ -1,14 +1,24 @@
-.projectsGrid {
-	display: grid;
-	gap: 15px;
-	width: 90vw;
-	margin: 6vw auto;
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: repeat(14, 1fr);
+.projectsContainer {
+	/* display: grid;
+	gap: 15px; */
+	color: wheat;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 5vw 0;
+	background: linear-gradient(
+			0deg,
+			rgba(42, 42, 42, 0.7),
+			rgba(109, 109, 109, 0.7),
+			rgba(53, 53, 53, 0.7)
+		),
+		url("../assets/noImageDesktop.jpg");
+	background-attachment: fixed;
 }
 
 @media screen and (max-width: 770px) {
-	.projectsGrid {
-		grid-template-rows: repeat(6, 1fr);
+	.projectsContainer {
+		flex-direction: column;
+		align-items: center;
 	}
 }

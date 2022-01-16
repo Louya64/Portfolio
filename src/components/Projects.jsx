@@ -8,7 +8,7 @@ const Projects = () => {
 			<h2 className="sectionTitle">
 				<span className="titleFont maj">M</span>es projets
 			</h2>
-			<div className="projectsGrid">
+			<div className="projectsContainer">
 				{projectsItems.map((item) => (
 					<ProjectsItem
 						key={item.id}
@@ -17,6 +17,7 @@ const Projects = () => {
 						urlImgDesktop={item.urlImgDesktop}
 						urlImgMobile={item.urlImgMobile}
 						description={item.description}
+						text={item.text}
 						stack={item.stack}
 						urlGithub={item.urlGithub}
 						urlWebsite={item.urlWebsite}
