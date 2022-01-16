@@ -18,7 +18,8 @@ h1,
 h2,
 h3,
 .titleFont {
-	font-family: "Great Vibes", cursive;
+	font-family: "Dancing Script", cursive;
+	/* font-family: "Great Vibes", cursive; */
 }
 
 h1 {
@@ -39,7 +40,7 @@ p {
 }
 
 .titleFont.maj {
-	font-family: "Luxurious Script", cursive;
+	/* font-family: "Luxurious Script", cursive; */
 	font-size: larger;
 }
 

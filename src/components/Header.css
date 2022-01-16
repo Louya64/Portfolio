@@ -39,9 +39,6 @@
 		height: 4vw;
 		justify-content: space-evenly;
 	}
-}
-
-@media screen and (max-width: 600px) {
 	.headerNavItem {
 		padding: 0;
 	}
