@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e3448185.chunk.css",
-    "main.js": "/Portfolio/static/js/main.2f38592c.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.2f38592c.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.7cc8a3e4.chunk.css",
+    "main.js": "/Portfolio/static/js/main.c5dc0d85.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.c5dc0d85.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.c65a14fc.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c65a14fc.js.map",
     "static/js/2.a0552bf4.chunk.js": "/Portfolio/static/js/2.a0552bf4.chunk.js",
     "static/js/2.a0552bf4.chunk.js.map": "/Portfolio/static/js/2.a0552bf4.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.e3448185.chunk.css.map": "/Portfolio/static/css/main.e3448185.chunk.css.map",
+    "static/css/main.7cc8a3e4.chunk.css.map": "/Portfolio/static/css/main.7cc8a3e4.chunk.css.map",
     "static/js/2.a0552bf4.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.a0552bf4.chunk.js.LICENSE.txt",
-    "static/media/BlindCrashTestDesktop.b7d60185.png": "/Portfolio/static/media/BlindCrashTestDesktop.b7d60185.png",
-    "static/media/BlindCrashTestMobile.febd1a9c.png": "/Portfolio/static/media/BlindCrashTestMobile.febd1a9c.png",
-    "static/media/LLMWikiMusicDesktop.d02b2108.png": "/Portfolio/static/media/LLMWikiMusicDesktop.d02b2108.png",
-    "static/media/LeWildDesktop.28c122f7.png": "/Portfolio/static/media/LeWildDesktop.28c122f7.png",
-    "static/media/LeWildMobile.f141a31d.png": "/Portfolio/static/media/LeWildMobile.f141a31d.png",
-    "static/media/MorpionDesktop.195fa06c.png": "/Portfolio/static/media/MorpionDesktop.195fa06c.png",
-    "static/media/MorpionMobile.3bdd44d7.png": "/Portfolio/static/media/MorpionMobile.3bdd44d7.png",
-    "static/media/WorkflowGithub.ab1f4898.png": "/Portfolio/static/media/WorkflowGithub.ab1f4898.png"
+    "static/media/BlindCrashTestDesktop.0a4d3d33.jpg": "/Portfolio/static/media/BlindCrashTestDesktop.0a4d3d33.jpg",
+    "static/media/BlindCrashTestMobile.3e9ac652.jpg": "/Portfolio/static/media/BlindCrashTestMobile.3e9ac652.jpg",
+    "static/media/LLMWikiMusicDesktop.fee35a6b.jpg": "/Portfolio/static/media/LLMWikiMusicDesktop.fee35a6b.jpg",
+    "static/media/LeWildDesktop.dcf80650.jpg": "/Portfolio/static/media/LeWildDesktop.dcf80650.jpg",
+    "static/media/LeWildMobile.91a32cf5.jpg": "/Portfolio/static/media/LeWildMobile.91a32cf5.jpg",
+    "static/media/MorpionDesktop.36eed799.jpg": "/Portfolio/static/media/MorpionDesktop.36eed799.jpg",
+    "static/media/MorpionMobile.2402d90a.jpg": "/Portfolio/static/media/MorpionMobile.2402d90a.jpg",
+    "static/media/WorkflowGithub.4decafc1.jpg": "/Portfolio/static/media/WorkflowGithub.4decafc1.jpg",
+    "static/media/Projects.css": "/Portfolio/static/media/noImageDesktop.d5955026.jpg",
+    "static/media/noImageMobile.4791f607.jpg": "/Portfolio/static/media/noImageMobile.4791f607.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c65a14fc.js",
     "static/js/2.a0552bf4.chunk.js",
-    "static/css/main.e3448185.chunk.css",
-    "static/js/main.2f38592c.chunk.js"
+    "static/css/main.7cc8a3e4.chunk.css",
+    "static/js/main.c5dc0d85.chunk.js"
   ]
 }
