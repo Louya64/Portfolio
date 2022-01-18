@@ -1,6 +1,4 @@
 .projectsContainer {
-	/* display: grid;
-	gap: 15px; */
 	color: wheat;
 	display: flex;
 	flex-wrap: wrap;

@@ -105,8 +105,6 @@
 	background-color: rgba(207, 244, 77, 0.08);
 }
 
-/*********************** media queries *************************/
-
 @media screen and (max-width: 1500px) {
 	.projectsItemText {
 		font-size: 15px;

@@ -53,7 +53,7 @@ const projectItems = [
 		urlImgDesktop: workflowGithubDesktop,
 		urlImgMobile: noImageMobile,
 		description: "Petit projet personnel pour réviser github",
-		text: "Les début avec github ont posé des difficultés à pas mal de monde. J'ai voulu faire un récapitulatif des étapes pour aider mes collègues ainsi que moi même.",
+		text: "Les débuts avec github ont posé des difficultés à pas mal de monde. J'ai voulu faire un récapitulatif des étapes pour aider mes collègues ainsi que moi même.",
 		stack: "HTML Sass",
 		urlGithub: ["https://github.com/Louya64/WorkflowGithub"],
 		urlWebsite: "https://louya64.github.io/WorkflowGithub/",
